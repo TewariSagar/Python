@@ -44,4 +44,19 @@ print d.split(",")
 p = "Sagar"
 print "_".join(p)
 
+#concatenate string with the + operator
+
+#multiply operator just repeats the string that many times
+
+x = "sagar"
+print (x*3)
+
+#verify if the character is present in the string. returns true of false
+
+print ("a" in x)
+print ("a" not in x)
+
+#using the string as template %s, %f %d
+
+
 
