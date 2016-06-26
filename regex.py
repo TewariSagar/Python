@@ -38,5 +38,11 @@ print y.group()
 #  \w - represents the search for any alphabet character from A to Z a-z 0-9
 # r - means that the string should be treated as raw
 # * - looks for 0 or more repeating character
-#
+
+#the findall() returns a list where each element is a pattern matched in the target string
+#returns a list of all the matched patters
+
+arp = "22.22.22.1      0    b4:a9:5a VLAN#222    L"
+print re.findall(r"\d\d\.\d{2}\.[0-9][0-9]\.[0-9]{1,3}", arp)
+
 
