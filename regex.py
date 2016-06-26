@@ -31,12 +31,12 @@ print y.group()
 #SOME REGEX RULES
 # () - brackets represents a group
 # . - represents any character
-# + - looks for repeating character specified by the preceeding character
+# + - looks for 1 or more repeating character specified by the preceeding character
 # \d - represents any single decimal digit from 0 to 9
 # \s - represents any match to the whitespace
 # {2,} - represents that python should expect two occurences of any character preceeding the curly bracket
 #  \w - represents the search for any alphabet character from A to Z a-z 0-9
 # r - means that the string should be treated as raw
-#
+# * - looks for 0 or more repeating character
 #
 
