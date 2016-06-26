@@ -45,4 +45,11 @@ print y.group()
 arp = "22.22.22.1      0    b4:a9:5a VLAN#222    L"
 print re.findall(r"\d\d\.\d{2}\.[0-9][0-9]\.[0-9]{1,3}", arp)
 
+#we get a list of tuples here
+arp = "22.22.22.1      0    b4:a9:5a VLAN#222    L 11.10.10.10"
+print re.findall(r"(\d\d)\.(\d{2})\.([0-9][0-9])\.([0-9]{1,3})", arp)
 
+#sub() function replaces the matcched string with the string we pass the argument
+
+f = re.sub(r"\d","7",arp)
+print f
